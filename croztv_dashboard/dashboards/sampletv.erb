@@ -1,0 +1,34 @@
+<script type='text/javascript'>
+    $(function() {
+        Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":3,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":3,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1}]')
+    });
+</script>
+
+
+<% content_for :title do %>1080p dashboard<% end %>
+
+<div class="gridster">
+  <ul>
+
+    <li data-row="1" data-col="1" data-sizex="3" data-sizey="1">
+      <div data-id="croz-diigo" data-view="Diigo" data-interval="10" style="background-color:#ec766e;"></div>
+      <i class="icon-heart icon-background"></i>
+    </li>
+
+      <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+          <div data-id="twitter_mentions" data-view="Comments" style="background-color:#ff9618;" data-moreinfo="Tweets tagged with #croztv"></div>
+          <i class="icon-twitter icon-background"></i>
+      </li>
+
+      <li data-row="2" data-col="1" data-sizex="3" data-sizey="1">
+          <div data-id="connections-blog-firme" data-view="Connections" data-interval="10" style="background-color:#46ece7;"></div>
+          <i class="icon-heart icon-background"></i>
+      </li>
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="convergence" data-view="Graph" data-title="Convergence" style="background-color:#47bbb3;"></div>
+    </li>
+
+
+  </ul>
+</div>
