@@ -1,4 +1,5 @@
 require 'twitter'
+require 'uri'
 
 
 #### Get your twitter keys & secrets:
