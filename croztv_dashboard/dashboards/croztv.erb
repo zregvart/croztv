@@ -1,6 +1,6 @@
 <script type='text/javascript'>
     $(function() {
-        Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":3,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":3,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1}]')
+        Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":3,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":3,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1},{"col":4,"row":3,"size_x":1,"size_y":1},{"col":1,"row":3,"size_x":3,"size_y":1}]')
     });
 </script>
 
@@ -25,10 +25,17 @@
           <i class="icon-heart icon-background"></i>
       </li>
 
-    <li data-row="2" data-col="1" data-sizex="1" data-sizey="1">
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
       <div data-id="clock" data-view="Clock" data-title="Clock" style="background-color:#47bbb3;"></div>
     </li>
 
+    <li data-row="2" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="jenkins_busy" data-view="Number" data-title="# running jobs on Jenkins" style="background-color:#96bf48;"></div>
+    </li>
+
+    <li data-row=2" data-col="3" data-sizex="3" data-sizey="1">
+      <div data-id="jenkins_history" data-view="List" data-title="# job history on Jenkins" style="background-color:#4B4B73;"></div>
+    </li>
 
   </ul>
 </div>
